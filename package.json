@@ -1,0 +1,14 @@
+{
+  "name": "marketmate-supermarket",
+  "version": "1.0.0",
+  "description": "Single-store supermarket shopping website with admin dashboard",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.10.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0"
+  }
+}
